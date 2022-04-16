@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilos-css/estilo.css">
+    <link rel="icon" href="estilos-css/imagenes/logo-mastercode.png">
+    <title>Formulario</title>
+</head>
+<body>
+        <!-- <nav>
+            <h1>
+                <img src="estilos-css/imagenes/logo-mastercode.png" alt="logotipo" id="logotipo"> master code</h1>
+    
+            <ul class="menu">
+                <li><a href="index.html">inicio</a></li>
+                <li><a href="contactos.html">contactos</a></li>
+                <li><a href="nosotros.html">sobre nosotros</a></li>
+                <li><a href="formulario.html">Crea tu cuenta / ingresá</a></li>
+            </ul>
+        </nav> -->
+        <div class= "centrarlogo"><h1> 
+            <img src="estilos-css/imagenes/logo-mastercode.png" alt="logotipo" id="logotipo"> master code 
+        </h1>  
+        </div> 
+        
+            <nav> 
+            <ul> 
+                <li><a href="index.html" class="btn-neon"> 
+                    <span id="span1"></span> 
+                    <span id="span2"></span> 
+                    <span id="span3"></span> 
+                    <span id="span4"></span> 
+                    inicio 
+                </a></li> 
+                <li><a href="contactos.html" class="btn-neon"> 
+                    <span id="span1"></span> 
+                    <span id="span2"></span> 
+                    <span id="span3"></span> 
+                    <span id="span4"></span> 
+                    contactos 
+                </a></li> 
+                <li><a href="nosotros.html" class="btn-neon"> 
+                    <span id="span1"></span> 
+                    <span id="span2"></span> 
+                    <span id="span3"></span> 
+                    <span id="span4"></span> 
+                    sobre nosotros 
+                </a></li> 
+                <li><a href="formulario.html" class="btn-neon"> 
+                    <span id="span1"></span> 
+                    <span id="span2"></span> 
+                    <span id="span3"></span> 
+                    <span id="span4"></span> 
+                    mi cuenta
+                </a></li> 
+            </ul>  
+        </nav>
+    
+
+    <div class = "formulario">
+        <form action="alla lo estan enviando" method="post">
+            <label for="nombre">Nombre: <em>*</em> <br> <input required  placeholder=”Luis” type="text" id="nombre" name="user_name" min="3" max="50"  >
+            </label>
+            <label for="apellido"><br> Apellido: <em>*</em><br><input required  placeholder=”Sanchez” type="text" id="apellido" name="user_name" min="3" max="50" >
+            </label>
+            <label for="fecha-nacimiento"><br>Fecha de nacimiento: <em>*</em><br><input required type="date" id="fecha-nacimiento" name="user_name" >
+            </label>
+            <label for="correo"><br>Correo electronico <em>*</em><br><input required  placeholder=”info@dominio.com” type="text" id="correo" name="user_name" >
+            </label> 
+            <label for="contraseña"><br>Contraseña <em>*</em><br><input required type="password" id="contraseña" name="user_name" >
+            </label>
+            <label for="confirmar-contraseña"><br> Confirmar contraseña<em>*</em><br><input required type="password" id="contraseña" name="user_name" >
+            </label>
+            <label for="Acepto"><br> <input required type="checkbox" id="acepto" name="user_name" /> Acepto los terminos y condiciones 
+            </label>
+            <label for="mensaje"> <br> Mensaje: <br> </label>
+            <textarea id="mensaje" name="mensaje"></textarea> <br> 
+            <button type="" class="ingresar"><a href="ingresar.html">Registrarse</a></button> <br>
+            <button type="" class="volver"><a href="index.html">&#60&#60volver al inicio</a></button>
+        </form>
+    </div>
+</body>
+</html>

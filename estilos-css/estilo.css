@@ -1,0 +1,482 @@
+
+nav{
+    text-align: center;
+}
+#logotipo{
+    height: 100px;
+    width: 140px;
+    vertical-align: bottom;
+    }
+    html{
+        background-color: black;
+        padding: 0%;
+        margin: 0%;
+    }
+
+    body {
+    padding: 0%;
+    margin: 0%;
+    background: rgb(37,215,60);
+    background: linear-gradient(0deg, rgba(37,215,60,0.300) 0%, rgba(0, 213, 255, 0.300) 100%);
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+
+#titulo1{
+    text-align: center;
+    
+}
+
+#content1 {
+    text-align: center;
+    font-weight: bold; 
+}
+
+.code {
+    align-content: top;
+    display: flex;
+}
+
+.info {
+    margin-right: 80px;
+    color: white;
+    text-align: left
+}
+
+#plantilla {
+    height:200px;
+    width: 220px;
+    margin-left: 50px; 
+    margin-right: 50px; 
+}
+
+/* .menu{
+    margin: 10px;
+    padding: 3px;
+    text-align: center;
+    border-radius: 40px;
+    background-color: #00FF50;
+    margin: auto;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+} 
+.menu li a{
+    font-size: 26px;
+    text-decoration: none;
+    color: white;
+    padding: 13px;
+    display: block;
+    }
+.menu li{
+    display: inline-block;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.menu li a:hover{
+    background-color: #13d14f;
+    border-radius: 12px;
+} */
+
+
+
+/*navegadoooooooooooooooooooooooooooooorrrrrrrrrrrrrrrrrrrrrrrrrrrrrr*/
+.centrarlogo{ 
+    text-align: center; 
+} 
+ 
+nav{ 
+    border-top: 1px groove hsla(0, 0%, 100%, 0.43); 
+    border-bottom: 1px groove hsla(0, 0%, 100%, 0.43); 
+    padding: 0%; 
+    text-align: center; 
+    text-transform: capitalize; 
+}  
+nav li .btn-neon{ 
+    position: relative; 
+    display: inline-block; 
+    padding: 15px 80px; 
+    color: #fff; 
+    letter-spacing: 4px; 
+    font-size: 18px; 
+    text-decoration: none; 
+    overflow: hidden; 
+    transition: 0.2s; 
+} 
+nav li .btn-neon:hover { 
+    background:#25d73c4d; 
+    box-shadow: 0 0 10px #25d73c4d, 0 0 40px #25d73c4d, 0 0 80px #25d73c4d; 
+    transition-delay: 1.s; 
+} 
+nav li .btn-neon span { 
+    position: absolute; 
+    display: block; 
+} 
+#span1 { 
+    top: 0; 
+    left: -100%; 
+    width:100%; 
+    height: 2px; 
+    background: linear-gradient(90deg,transparent,#ffff); 
+    } 
+
+    nav li .btn-neon:hover #span1 { 
+        left: 100%; 
+        transition:1s; 
+        } 
+
+        #span3 { 
+            bottom: 0; 
+            right:-100%; 
+            width: 100%; 
+            height: 2px; 
+            background: linear-gradient(270deg,transparent,#ffff); 
+        } 
+        nav li .btn-neon:hover #span3{ 
+            right:100%; 
+            transition: 1s; 
+            transition-delay: 0.5s; 
+        } 
+        #span2{ 
+            top: -100%; 
+            right:0; 
+            width: 2px; 
+            height: 100%; 
+            background: linear-gradient(180deg,transparent,#ffff); 
+        } 
+nav li .btn-neon:hover #span2{ 
+    top:100%; 
+    transition: 1s; 
+    transition-delay: 0.25s; 
+} 
+#span4 { 
+    bottom: -100%; 
+    left:0; 
+    width: 2px; 
+    height: 100%; 
+    background: linear-gradient(360deg,transparent,#ffff); 
+} 
+nav li .btn-neon:hover #span4{ 
+    bottom: 100%; 
+    transition: 1s; 
+    transition-delay: 0.75s; 
+}                 
+
+nav li{ 
+    display: inline-block;    
+} 
+
+nav li .btn-neon:active{ 
+    color: #03b93c;
+    background:#25d73c4d; 
+    box-shadow: inset 0 0 10px #000,  0 0 40px #25d73c4d, 0 0 80px #25d73c4d;
+    transition-delay: 1.s; 
+}
+/***************************************************************************/
+
+h1 {
+    margin: 0%;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color:#00FF50;
+    text-transform: capitalize;
+    font-size: 90px;
+    text-shadow: ;
+}
+
+h2{
+    font-size: 30px;
+    color: #00FF50;
+}
+h3 {
+    color:#00FF50;
+}
+p{
+    color: white;
+}
+
+
+.articulos {
+    border:#00FF50 2px solid ;
+}
+
+.fotoperfil{
+    border-radius: 50%;
+    padding: 35px;
+    width: 240px;
+}
+
+.fotoperfil:hover{
+    transition: 0.8s;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2)
+    
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+}
+
+.mid{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.bot{
+    display: flex;
+    justify-content: center;
+}
+
+#0 {
+    
+}
+
+
+#1 {
+    padding: 50px;
+    margin: 10px;
+}
+
+#2 {
+    
+}
+
+section {
+    color: ;
+}
+
+form {
+    color: ;
+}
+
+main {
+    color: ;
+}
+
+footer {
+    color: ;
+}
+/* los div de la seccion contactos */
+.contenedorperfil{
+text-align: center;
+}
+.contenedorperfil a{
+        font-size: 20px;
+        color: #00FF50;
+        vertical-align: middle;
+        text-decoration: none;
+        font-size: 15px;
+}
+/* .contenedorperfil h2{
+    font-size: 50px;
+} */
+
+
+
+ /*---------------------------------------------------------------------------------------------------------*/
+
+ /*poner los nombres para documentar*/
+
+ /*formulario*/
+
+.formulario {
+    text-align: center;
+}
+
+
+
+button, input, textarea{
+    border: 1px solid #00FF50;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'montserrat';
+    cursor: pointer;
+    color: #fff;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+label{
+    color: #fff;
+    font-family: 'montserrat';
+    font-size: 15px;
+    margin: 10px;
+}
+button a{
+  text-decoration: none;
+  color: #fff;
+}
+
+input:hover{
+    background: #00FF50;
+    transition: 0.8s;
+    transform: scale(1.1);
+    color: #fff;
+}
+
+button:hover{
+    background: #00FF50;
+    transition: 0.8s;
+    transform: scale(1.1);
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+
+/*LOGUEO*/
+
+#logueo{
+    
+    text-align: center;
+}
+
+/* Css Carrusel */
+
+/* #carrusel-caja {
+    -moz-animation: automatizacion 15s infinite linear;
+    -o-animation: automatizacion 15s infinite linear;
+    -webkit-animation: automatizacion 15s infinite linear;
+    animation: automatizacion 15s infinite linear;
+
+    -webkit-transition: all 5s ease;
+    -moz-transition: all 5s ease;
+    -ms-transition: all 5s ease;
+    -o-transition: all 5s ease;
+    transition: all 5s ease;
+
+    height: 250px;
+    width: 133%;
+}
+
+#carrusel-contenido {
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: left;
+}
+
+.imagenes{
+    height: 250px;
+    width: 100%;
+}
+
+.carrusel-elemento {
+    float: left;
+    width: 25%;
+}
+
+@-moz-keyframes automatizacion {
+    0% {
+	margin-left: 0;
+    }
+
+    20% {
+        margin-left: 0;
+    }
+
+    25% {
+        margin-left: -100%;
+    }
+
+    45% {
+        margin-left: -100%;
+    }
+
+    50% {
+        margin-left: -200%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+	75% {
+        margin-left: -300%;
+    }
+	
+	99% {
+        margin-left: -300%;
+    }
+	
+    100% {
+        margin-left: 0;
+    }
+}
+
+@-webkit-keyframes automatizacion {
+    0% {
+		margin-left: 0;
+    }
+
+    20% {
+        margin-left: 0;
+    }
+
+    25% {
+        margin-left: -100%;
+    }
+
+    45% {
+        margin-left: -100%;
+    }
+
+    50% {
+        margin-left: -200%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+	75% {
+        margin-left: -300%;
+    }
+	
+	99% {
+        margin-left: -300%;
+    }
+	
+    100% {
+        margin-left: 0;
+    }
+}
+
+@keyframes automatizacion {
+    0% {
+		margin-left: 0;
+    }
+
+    20% {
+        margin-left: 0;
+    }
+
+    25% {
+        margin-left: -100%;
+    }
+
+    45% {
+        margin-left: -100%;
+    }
+
+    50% {
+        margin-left: -200%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+	75% {
+        margin-left: -300%;
+    }
+	
+	99% {
+        margin-left: -300%;
+    }
+	
+    100% {
+        margin-left: 0;
+    }
+} */
+/* fin de css carrusel */
