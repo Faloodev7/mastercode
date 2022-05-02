@@ -1,17 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="estilos-css/imagenes/logo-mastercode.png">
     <link rel="stylesheet" href="/estilos-css/estilo.css">
     <title>Ingresar</title>
 </head>
 <body>
-    <div id="logueo">
-        <label for="nombre-usuario">Email <br> <input required type="text"></label>
-        <label for="contraseña"> <br> Contraseña <br> <input required type="password"></label>
-        <br><button>Ingresar</button>
+      <!-- *****************************************BARRA DE NAVEGACION************************************************************** -->
+    
+    
+    <div class= "centrarlogo">
+        <h1> <img src="estilos-css/imagenes/logo-mastercode.png" alt="logotipo" id="logotipo"> master code </h1>  
+    </div> 
+    
+        <nav> 
+        <ul> 
+            <li><a href="index.html" class="btn-neon" class="inicio"> 
+                <span id="span1"></span> 
+                <span id="span2"></span> 
+                <span id="span3"></span> 
+                <span id="span4"></span> 
+                inicio 
+            </a></li> 
+            <li><a href="#" class="btn-neon"> 
+                <span id="span1"></span> 
+                <span id="span2"></span> 
+                <span id="span3"></span> 
+                <span id="span4"></span> 
+                contactos 
+            </a></li> 
+            <li><a href="nosotros.html" class="btn-neon" class="nosotros"> 
+                <span id="span1"></span> 
+                <span id="span2"></span> 
+                <span id="span3"></span> 
+                <span id="span4"></span> 
+                sobre nosotros 
+            </a></li> 
+            <li><a href="ingresar.html" class="btn-neon" class="formulario"> 
+                <span id="span1"></span> 
+                <span id="span2"></span> 
+                <span id="span3"></span> 
+                <span id="span4"></span> 
+                mi cuenta
+            </a></li> 
+        </ul>  
+        </nav>
+
+
+     <!-- *****************************************INGRESAR A LA CUENTA********************************************************** -->
+    
+    
+    <main class="container">
+        <h2>Ingresa a tu cuenta</h2>
+        <div class = "ingresardiv">
+            <form action="alla lo estan enviando" method="post">
+                <label for="nombre-usuario">Email <br> <input required type="text"></label>
+                <br>
+
+                <label for="contraseña">Contraseña <br> <input required type="password"></label><br>    
+                        <button id="btningresar"><a href="index.html"><img src="estilos-css/imagenes/logo-mastercode.png" alt=""> Ingresar <img src="estilos-css/imagenes/logo-mastercode.png" alt=""></a></button>
+                        
+            </form>
+            
     </div>
+    <button type="" class="ingresar"><a href="formulario.html">No tenes cuenta? Registrate</a></button> <br>
+    </main>
 </body>
 </html>
